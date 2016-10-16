@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">إدارة الموارد البشرية</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>استعلام عن رصيد اجازات</item>
+        <item>استعلام عن راتب</item>
+        <item>تقديم طلب اجازة</item>
+        <item>استعراض اجازات الموظف</item>
+    </string-array>
+</resources>

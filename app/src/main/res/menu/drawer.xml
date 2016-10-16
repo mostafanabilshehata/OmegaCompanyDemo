@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/first_separator"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item1"
+            android:checked="false"
+            android:title="استعلام عن رصيد اجازات"
+            android:icon="@drawable/menu_arrow"
+            android:color="#f58913"
+            ></item>
+    </group>
+    <group
+        android:id="@+id/second_separator"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item2"
+            android:checked="false"
+            android:icon="@drawable/menu_arrow_green"
+            android:color="#109c56"
+            android:title="استعلام عن راتب" />
+    </group>
+    <group
+        android:id="@+id/third_separator"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item3"
+            android:checked="false"
+            android:icon="@drawable/menu_arrow"
+            android:color="#f58913"
+            android:title="تقديم طلب اجازة" />
+    </group>
+    <group
+        android:id="@+id/forth_separator"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item4"
+            android:checked="false"
+            android:icon="@drawable/menu_arrow_green"
+            android:color="#109c56"
+            android:title="استعراض اجازات الموظف" />
+
+    </group>
+</menu>
